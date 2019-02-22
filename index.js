@@ -33,7 +33,7 @@ bot.on("message", message => {
                         ".frame .image .img-responsive"
                     ).attributes.src;
                     const attachment = new Attachment(chamskoUrl + imageSrc);
-                    bot.channels.get("548272115724451884").send(attachment);
+                    bot.channels.get("CHANNEL ID").send(attachment);
                 });
             }, 2000);
         }
